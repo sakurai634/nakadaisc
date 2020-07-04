@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>お問い合わせフォーム</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body id="contact">
+    <section id="top" class="flex header">
+      <header>
+        <img src="img/logo.png" alt="" />
+        <p>nakadaiSC</p>
+      </header>
+
+      <nav>
+        <ul class="flex">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="team.html">チーム紹介</a></li>
+          <li><a href="record.html">成績</a></li>
+          <li><a href="recruitment.html">部員募集</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+          <li><a href="">TWITTER</a></li>
+        </ul>
+      </nav>
+    </section>
+    <!-- メールからのお問い合わせ -->
+    <div class="title contact-title">
+      <h3>-お問い合わせ（メールから）-</h3>
+    </div>
+    <div class="Form">
+      <div class="Form-Item">
+        <p class="Form-Item-Label">
+          <span class="Form-Item-Label-Required">必須</span>学年
+        </p>
+        <form>
+          <input type="radio" name="year" />1年生<br />
+          <input type="radio" name="year" />2年生<br />
+          <input type="radio" name="year" />2年生<br />
+          <input type="radio" name="year" />4年生<br />
+          <input type="radio" name="year" />5年生<br />
+          <input type="radio" name="year" />6年生<br />
+        </form>
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label">
+          <span class="Form-Item-Label-Required">必須</span>氏名
+        </p>
+        <input type="text" class="Form-Item-Input" placeholder="例）山田太郎" />
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label">
+          <span class="Form-Item-Label-Required">必須</span>電話番号
+        </p>
+        <input
+          type="text"
+          class="Form-Item-Input"
+          placeholder="例）000-0000-0000"
+        />
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label">
+          <span class="Form-Item-Label-Required">必須</span>メールアドレス
+        </p>
+        <input
+          type="email"
+          class="Form-Item-Input"
+          placeholder="例）example@gmail.com"
+        />
+      </div>
+      <div class="Form-Item">
+        <p class="Form-Item-Label isMsg">
+          <span class="Form-Item-Label-Required">必須</span>お問い合わせ内容
+        </p>
+        <textarea class="Form-Item-Textarea"></textarea>
+      </div>
+      <input type="submit" class="Form-Btn" value="送信する" />
+    </div>
+
+    <!-- ラインからのお問い合わせ -->
+    <!-- 画像を並べる -->
+  </body>
+</html>

@@ -52,3 +52,24 @@
 .intro ul li p:nth-child(1) {
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 480px) {
+  .title h3 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  /* news */
+  #news {
+    display: initial;
+  }
+
+  /* contents */
+  .intro {
+    display: initial;
+  }
+
+  .intro ul {
+    display: initial;
+  }
+}

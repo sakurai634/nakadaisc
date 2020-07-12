@@ -321,5 +321,17 @@ footer .finish p {
 
   /*//////// ハンバーガー完//////// */
 
+  /* button */
+  .main-button {
+    margin: 13% 0;
+  }
+
+  .more-button {
+    margin: 10%;
+  }
+
+  .more-button p a {
+    padding: 5% 10%;
+  }
   /* footer */
 }

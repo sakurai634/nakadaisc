@@ -49,7 +49,7 @@
   text-align: center;
 }
 
-.intro ul li p:nth-child(1) {
+.intro ul li p {
   font-size: 1.5rem;
 }
 
@@ -71,5 +71,9 @@
 
   .intro ul {
     display: initial;
+  }
+
+  .intro ul li {
+    margin-bottom: 20px;
   }
 }

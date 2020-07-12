@@ -8,6 +8,10 @@
   background-color: white;
 }
 
+.contact-title {
+  margin-top: 100px;
+}
+
 .contact-title h3 {
   padding-top: 50px;
 }
@@ -20,6 +24,10 @@
   max-width: 720px;
 }
 @media screen and (max-width: 480px) {
+  .contact-title h3 {
+    font-size: 1.5rem;
+  }
+
   .Form {
     margin-top: 40px;
   }
